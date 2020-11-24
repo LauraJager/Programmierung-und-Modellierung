@@ -1,8 +1,7 @@
 
 public class Functionality {
 	
-	// berechnet die Fläche eines Trapez (Länge a und c, Höhe 
-	h) 
+	// berechnet die FlÃ¤che eines Trapez (LÃ¤nge a und c, HÃ¶he h) 
 	public static double trapezoidArea(int a, int c, int h) {
 		double trapezFlaeche = ((double) a + (double) c) * h * 0.5;
 		if (((a <= 0) || (c <= 0)) || (h <= 0)) {
@@ -26,7 +25,6 @@ public class Functionality {
 		double ausgabeDouble = Double.parseDouble(ausgabeString);
 		return ausgabeDouble;
 	}
-
 	public static void main(String[] args) {
 	}
 
