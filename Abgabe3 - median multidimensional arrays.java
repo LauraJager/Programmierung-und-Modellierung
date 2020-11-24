@@ -16,9 +16,9 @@ public class Functionality {
 		}
 		// Deklaration neues Array
 		double[] medianInnere = new double[a.length];
+		// Befüllt neues Array mit Mittelwerten
 		for (int i = 0; i < a.length; i++) {
-			medianInnere[i] = medianVersuch(a[i]);
-			// Einfüllen in neues 1dimensionales Array mit medianWerten
+			medianInnere[i] = medianVersuch(a[i]);	
 		}
 		// Prüfen ob Median von einem inneren Array leer oder null ist
 		if ((medianInnere == null) || (medianInnere.length == 0)) {
